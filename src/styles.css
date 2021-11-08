@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; text-align: center;background: url("https://st.depositphotos.com/1522993/4737/v/600/depositphotos_47372005-stock-illustration-orange-blue-background-with-triagles.jpg");
+    background-size: cover; }
+h1{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    margin : 4px;
+    border : 4px solid rgb(216, 61, 61);
+    background-color: rgb(216, 61, 61);
+    color: white;
+}
+

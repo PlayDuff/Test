@@ -1,0 +1,22 @@
+<body>
+<h1>C'est un portfolio</h1>
+<div class="menu">
+    <a href="" class="butM">Presentation</a> 
+    <a href="/competences" class="butM">Competences</a>
+    <a href="/projets" class="butM">Projets</a>
+</div>
+<p></p>
+<button (click)="getNomPrenom()">Randomizer personne</button>
+<div class="blok">
+    <p>Je suis {{Personne.prenom}} {{Personne.nom | uppercase}}</p>
+    <img src={{Personne.img}}>
+    <p>Je suis à {{Personne.ville}} et c'est en {{Personne.pays}}</p>
+    
+</div>
+
+<label for="note">Mettez une note</label>
+<input type="number" id="note" name="note" min="10" max="20" value={{Personne.note}}>
+<br>
+
+<asyncObservablePipe></asyncObservablePipe>
+</body>
